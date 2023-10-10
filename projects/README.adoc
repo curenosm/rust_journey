@@ -1,0 +1,55 @@
+= Ideas de Proyectos para Desarrollar en Rust
+
+Recordando que Rust es un lenguaje que se puede utilizar para tareas que requieren del uso eficiente de los recursos de la computadora, se pueden desarrollar proyectos que requieran de estas características.
+
+
+== Matemáticas
+
+Algunas ideas de proyectos que se pueden desarrollar en Rust son:
+
+
+[loweralpha]
+. Desarrollar un sistema de álgebra computacional al estilo Mathematica
+. Desarrollar un sistema de cálculo numérico al estilo numpy
+. Desarrollar un sistema de cálculo simbólico al estilo sympy
+. Desarrollar un sistema de cálculo de tensores al estilo Tensorflow
+
+
+== Herramientas que manejan audio y procesamiento de señales
+
+Algunas ideas de proyectos que se pueden desarrollar en Rust son:
+
+[loweralpha]
+. Visualización de señales de audio en forma de archivos .mp3
+. Herramienta para eliminar el ruido de un archivo de audio
+. Generador de notas musicales
+. Generador de acordes musicales
+. Generador de escalas musicales
+. Traductor de notas musicales a frecuencias
+
+
+== Compiladores, lenguajes
+
+[loweralpha]
+. Desarrollar un parser de commonQASM
+
+
+== Asistente Inteligente
+
+[loweralpha]
+. Aplicación para Alexa que se conecta con chatGPT y responde preguntas
+
+
+== Extensiones para Chrome
+
+[loweralpha]
+. Extensión para la página de la facultad de ciencias que permite consultar misprofesores para imprimir información relevante de los profesores en el nuevo sitio de la  facultad de ciencias.
+
+== Animación y Gráficos
+
+[loweralpha]
+. Librería de animación matemática al estilo Manim en rust.
+
+==
+
+

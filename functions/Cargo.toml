@@ -1,0 +1,31 @@
+[package]
+name = "functions"
+version = "0.1.0"
+edition = "2021"
+authors = ["Misael Cureño Sanchez"]
+description = "Testing functions in Rust"
+license = "MIT"
+repository = "https://github.com/curenosm/lenguages-por-aprender.git"
+readme = "README.md"
+keywords = ["rust", "functions", "testing"]
+categories = ["rust", "functions", "testing"]
+
+[dependencies]
+alga = "0.9.3"
+base64 = "0.21.4"
+bytes = "1.5.0"
+digest = "0.10.7"
+euclid = "0.22.9"
+libc = "0.2.148"
+log = "0.4.20"
+mathru = "0.15.2"
+nalgebra = "0.32.3"
+quote = "1.0.33"
+rand = "0.8.5"
+regex = "1.9.5"
+rust_decimal = "1.32.0"
+ryu = "1.0.15"
+statrs = "0.16.0"
+syn = "2.0.37"
+url = "2.4.1"
+
