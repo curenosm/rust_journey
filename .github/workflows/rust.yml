@@ -1,0 +1,39 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        project:
+          - algorithms
+        
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check
+      run: cd ${{ matrix.project }} && cargo check --verbose
+    - name: Clippy
+      run: cd ${{ matrix.project }} && cargo clippy --verbose
+    - name: Build
+      run: cd ${{ matrix.project }} && cargo build --verbose
+    - name: Run tests
+      run: cd ${{ matrix.project }} && cargo test --verbose
+    - name: Benchmarks
+      run: cd ${{ matrix.project }} && cargo bench --verbose
+    - name: Docs
+      run: cd ${{ matrix.project }} && cargo doc --verbose
+    - name: Rustdoc
+      run: cd ${{ matrix.project }} && cargo rustdoc --verbose
+    - name: Publish
+      run: cd ${{ matrix.project }} && cargo publish --verbose
