@@ -1,27 +1,29 @@
-struct Node {
-  id: usize,
-  edges: Vec<usize>,
+use std::fmt;
+
+pub struct Node {
+  pub id: usize,
+  pub edges: Vec<usize>,
 }
 
-struct Edge {
-  src: usize,
-  dst: usize,
+pub struct Edge {
+  pub src: usize,
+  pub dst: usize,
 }
 
-struct Graph {
-  nodes: Vec<Node>,
-  edges: Vec<Edge>,
+pub struct Graph {
+  pub nodes: Vec<Node>,
+  pub edges: Vec<Edge>,
 }
 
 impl Graph {
-  fn new() -> Self {
+  pub fn new() -> Self {
     Graph {
       nodes: Vec::new(),
       edges: Vec::new(),
     }
   }
 
-  fn add_node(&mut self) -> usize {
+  pub fn add_node(&mut self) -> usize {
     let id = self.nodes.len();
     self.nodes.push(Node {
       id,
@@ -30,17 +32,13 @@ impl Graph {
     id
   }
 
-  fn add_edge(&mut self, src: usize, dst: usize) {
+  pub fn add_edge(&mut self, src: usize, dst: usize) {
     self.nodes[src].edges.push(dst);
     self.edges.push(Edge { src, dst });
   }
 
-  fn get_node(&self, id: usize) -> Option<&Node> {
+  pub fn get_node(&self, id: usize) -> Option<&Node> {
     self.nodes.get(id)
-  }
-
-  fn get_edge(&self, src: usize, dst: usize) -> Option<&(usize, usize)> {
-    self.edges.iter().find(|(s, d)| *s == src && *d == dst)
   }
 }
 

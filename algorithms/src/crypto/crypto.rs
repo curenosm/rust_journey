@@ -40,7 +40,7 @@ pub fn unapply_cesar(b: i32, x: i32) -> i32 {
 
 /// Given a string, map it to a vector of numbers
 pub fn letters_to_nums(s: &str) -> Vec<i32> {
-  s.chars().map(|c| (c as u8 - 'A' as u8)).collect()
+  s.chars().map(|c| (c as u8 - 'A' as u8) as i32).collect()
 }
 
 /// Given a vector of numbers, map it to a string

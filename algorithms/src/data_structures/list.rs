@@ -1,12 +1,30 @@
+
+#[derive(Debug)]
 pub struct ListNode<T> {
-    data: T,
-    next: Option<Box<ListNode<T>>>,
-    prev: Option<Box<ListNode<T>>>,
+    pub data: T,
+    pub next: Option<Box<ListNode<T>>>,
+    pub prev: Option<Box<ListNode<T>>>,
 }
 
+
+#[derive(Debug)]
 pub struct LinkedList<T> {
-    head: Option<Box<ListNode<T>>>,
-    tail: Option<Box<ListNode<T>>>,
-    size: usize,
-    last: Option<Box<ListNode<T>>>,
+    pub head: Option<Box<ListNode<T>>>,
+    pub tail: Option<Box<ListNode<T>>>,
+    pub size: usize,
+    pub last: Option<Box<ListNode<T>>>,
+}
+
+impl<T> LinkedList<T> {
+
+    pub fn new() -> Self {
+        LinkedList::<T> {
+            head: None,
+            tail: None,
+            size: 0,
+            last: None,
+        }
+    }
+
+
 }

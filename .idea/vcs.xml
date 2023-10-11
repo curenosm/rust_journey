@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/algorithms" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/branches" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/functions" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/hello_cargo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/loops" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/scripting" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/variables" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

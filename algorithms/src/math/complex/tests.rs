@@ -113,3 +113,70 @@ pub mod test_complex {
   }
 
 }
+
+
+#[cfg(test)]
+pub mod test_polar {
+  use super::*;
+
+  #[test]
+  fn test_add() {
+    let a = Polar::new(1.0, 0.0);
+    let b = Polar::new(1.0, 0.0);
+    let c = a + b;
+    assert_eq!(c.magnitude, 2.0);
+    assert_eq!(c.phase, 0.0);
+  }
+
+  #[test]
+  fn test_sub() {
+    let a = Polar::new(1.0, 0.0);
+    let b = Polar::new(1.0, 0.0);
+    let c = a - b;
+    assert_eq!(c.magnitude, 0.0);
+    assert_eq!(c.phase, 0.0);
+  }
+
+  #[test]
+  fn test_mul() {
+    let a = Polar::new(1.0, 0.0);
+    let b = Polar::new(1.0, 0.0);
+    let c = a * b;
+    assert_eq!(c.magnitude, 1.0);
+    assert_eq!(c.phase, 0.0);
+  }
+
+  #[test]
+  fn test_div() {
+    let a = Polar::new(1.0, 0.0);
+    let b = Polar::new(1.0, 0.0);
+    let c = a / b;
+    assert_eq!(c.magnitude, 1.0);
+    assert_eq!(c.phase, 0.0);
+  }
+
+  #[test]
+  fn test_conjugate() {
+    let a = Polar::new(1.0, 0.0);
+    let b = a.conjugate();
+    assert_eq!(b.magnitude, 1.0);
+    assert_eq!(b.phase, 0.0);
+  }
+
+  #[test]
+  fn test_to_complex() {
+    let a = Polar::new(1.0, 0.0);
+    let b = a.to_complex();
+    assert_eq!(b.real, 1.0);
+    assert_eq!(b.imag, 0.0);
+  }
+
+  #[test]
+  fn test_from_complex() {
+    let a = Complex::new(1.0, 0.0);
+    let b = Polar::from_complex(a);
+    assert_eq!(b.magnitude, 1.0);
+    assert_eq!(b.phase, 0.0);
+  }
+
+}

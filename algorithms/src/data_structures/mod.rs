@@ -7,3 +7,4 @@ pub mod priority_queue;
 pub mod queue;
 pub mod red_black_three;
 pub mod stack;
+pub mod tests;

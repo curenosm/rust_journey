@@ -11,7 +11,10 @@
       <excludeFolder url="file://$MODULE_DIR$/algorithms/src/graphs/models/target" />
       <excludeFolder url="file://$MODULE_DIR$/algorithms/src/sorting/target" />
       <excludeFolder url="file://$MODULE_DIR$/algorithms/target" />
+      <excludeFolder url="file://$MODULE_DIR$/functions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/scripting/target" />
+      <excludeFolder url="file://$MODULE_DIR$/variables/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
