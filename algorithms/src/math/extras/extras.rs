@@ -27,16 +27,14 @@ pub fn generate_fractal_triangle() {
     points_t.push(p_sig);
   }
 
-  for point in &points_t {
-    println!("{:?}", point);
-  }
-
   // Generate an image what we just calculated
-  let mut img = RgbImage::new(32, 32);
+  let mut img = RgbImage::new(1000, 1000);
 
   for p in points_t {
     let x = (p.0 * 1000.0) as u32;
     let y = (p.1 * 1000.0) as u32;
     img.put_pixel(x, y, image::Rgb([255, 255, 255]));
   }
+
+  img.save("sierpinski.png").unwrap();
 }

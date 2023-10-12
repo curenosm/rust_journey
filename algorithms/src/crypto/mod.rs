@@ -1,7 +1,10 @@
-pub mod crypto;
 pub mod aes;
-pub mod crc;
 pub mod base64;
 pub mod checksum;
+pub mod constants;
+pub mod crc;
+pub mod mono;
+pub mod des;
 pub mod parity_bit;
 pub mod tests;
+pub mod vigenere;

@@ -1,4 +1,8 @@
-use crate::crypto::crypto::{apply_cesar, letters_to_nums, nums_to_letters};
+use crate::crypto::mono::{
+  apply_cesar,
+  letters_to_nums,
+  nums_to_letters
+};
 
 
 #[cfg(test)]
