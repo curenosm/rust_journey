@@ -1,11 +1,9 @@
-
 #[derive(Debug)]
 pub struct ListNode<T> {
     pub data: T,
     pub next: Option<Box<ListNode<T>>>,
     pub prev: Option<Box<ListNode<T>>>,
 }
-
 
 #[derive(Debug)]
 pub struct LinkedList<T> {
@@ -16,7 +14,6 @@ pub struct LinkedList<T> {
 }
 
 impl<T> LinkedList<T> {
-
     pub fn new() -> Self {
         LinkedList::<T> {
             head: None,
@@ -25,6 +22,4 @@ impl<T> LinkedList<T> {
             last: None,
         }
     }
-
-
 }

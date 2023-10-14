@@ -166,8 +166,6 @@ L
 algorithms/src/graphs/mod.rs,2\0\20d5b233ad76382cbf6b5fecaab000c878d36f29
 T
 $algorithms/src/math/complex/tests.rs,c\a\ca15c625bedc3b408c5ebb18af9b9fce46261f2f
-O
-algorithms/src/crypto/crypto.rs,2\b\2b6ef8dc27c923caf1d5444354f0e8d86443f3ba
 U
 %algorithms/src/data_structures/mod.rs,a\b\abd4de0a5b49e3626c42b38f66668ff9284564dc
 N
@@ -188,3 +186,37 @@ F
 algorithms/src/main.rs,5\a\5a3fe5a11f446ce91ad22de33dbcb28762630c3f
 T
 $algorithms/src/math/extras/extras.rs,1\a\1a88974f3c28020bcf1894f8910357136839c658
+M
+algorithms/src/crypto/mono.rs,1\c\1c70267866418f2b1b3fad4687ff7568521dab01
+R
+"algorithms/src/crypto/constants.rs,9\b\9bc8274863e9bfdde3ea251eb5b1cbb17f3832c9
+a
+1algorithms/src/data_structures/data_structures.rs,8\4\847b55dd273ade853477d88345e120ecd878a0b6
+L
+algorithms/src/crypto/des.rs,8\2\827a4a25b625cbaeb7e102127efca75a00c65744
+T
+$algorithms/src/ai/ml/one_hot_code.rs,9\0\9031f5702836f3d399d68eca1fb74dde7fc0ae6d
+L
+algorithms/src/ai/ml/k_nn.rs,e\7\e788aa9b12a7e8c05b7e97d7bda1b48e6dad8e3d
+O
+algorithms/datasets/example.csv,f\9\f9e088cd640b8186b9b63233888e9bc1592a828e
+`
+0algorithms/src/ai/ml/metrics/cross_validation.rs,d\a\dab05548edbcbcedace5ff1313716d7ace70cfcb
+S
+#algorithms/src/ai/ml/metrics/mod.rs,b\0\b0c6fbe45cfc54bd84b45ed766ac91fb21a6fbb8
+`
+0algorithms/src/ai/ml/metrics/confusion_matrix.rs,c\1\c1bba5f69be0b8b6b83b387b09dd4e4e3783f06d
+K
+algorithms/src/ai/ec/mod.rs,a\d\ad2cb649a49e737f28006076f358604a18d2bf48
+K
+algorithms/src/ai/ml/pca.rs,5\1\5197de21f63dea7b49e79e5157caf3ea5719024b
+K
+algorithms/src/ai/ml/lda.rs,3\3\33302c97cc288a82c4ad33ca34e007ef3819ca03
+K
+algorithms/src/ai/ec/aco.rs,1\1\11958e54ccef43ce94cdf61629843fad99172120
+Z
+*algorithms/src/strings/needleman_wunsch.rs,5\f\5f840f967b78e6cfddf1e108de6687bea9a4d73f
+X
+(algorithms/src/strings/smith_waterman.rs,3\3\332c6c3c574afd07fceb27f92a23ac6ec4c0cbd1
+Q
+!algorithms/src/strings/spa_des.rs,6\1\615c7cc95e7a9a6583f69dd03e419d4ecf048e0e

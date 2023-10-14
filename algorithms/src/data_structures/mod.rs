@@ -1,4 +1,5 @@
 pub mod binary_three;
+pub mod data_structures;
 pub mod graph;
 pub mod hash_map;
 pub mod heap;

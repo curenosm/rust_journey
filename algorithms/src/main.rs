@@ -12,8 +12,9 @@ mod sorting;
 mod statistics;
 mod strings;
 
+pub fn main() {
+    //! This is my first rust crate
 
-fn main() {
     println!("Hello, world!");
     let result = fib(5);
 
