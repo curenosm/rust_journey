@@ -220,3 +220,7 @@ X
 (algorithms/src/strings/smith_waterman.rs,3\3\332c6c3c574afd07fceb27f92a23ac6ec4c0cbd1
 Q
 !algorithms/src/strings/spa_des.rs,6\1\615c7cc95e7a9a6583f69dd03e419d4ecf048e0e
+R
+"algorithms/documentation/README.md,a\0\a030952fc40a062eb75507443f1e9cda01d8c262
+V
+&algorithms/src/ai/perceptron_simple.rs,0\7\07a6791b4b568e9971ddcc9a307eaa0477ad5d3d

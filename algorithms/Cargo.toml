@@ -1,5 +1,12 @@
 [package]
-name = "algorithms"
+name = "algorust"
+description = "A project holding several algorithms implemented in Rust, for learning purposes."
+homepage = "https://github.com/curenosm/rust-journey"
+documentation = "https://docs.rs/algorust"
+repository = "https://github.com/curenosm/rust-journey.git"
+readme = "README.md"
+keywords = ["algorithms", "rust", "learning"]
+categories = ["algorithms", "mathematics", "science", "cryptography"]
 version = "0.1.0"
 edition = "2021"
 

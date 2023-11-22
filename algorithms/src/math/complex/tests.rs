@@ -1,6 +1,7 @@
 #[cfg(test)]
 pub mod test_complex {
 
+    use super::*;
     use crate::math::complex::complex::Complex;
     use crate::math::complex::complex::Polar;
 

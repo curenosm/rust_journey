@@ -1,9 +1,6 @@
-use crate::data_structures::graph::Graph;
-use crate::data_structures::list::LinkedList;
-
 #[cfg(test)]
 pub mod test_list {
-    use super::*;
+    use crate::data_structures::list::LinkedList;
 
     #[test]
     fn test_list() {
@@ -18,7 +15,7 @@ pub mod test_list {
 
 #[cfg(test)]
 pub mod test_graph {
-    use super::*;
+    use crate::data_structures::graph::Graph;
 
     #[test]
     fn test_graph() {
