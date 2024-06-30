@@ -12,10 +12,10 @@ impl Solution {
         for i in 0..nums.len() - 2 {
             let (j, k) = (i + 1, i + 2);
             if nums[k] + nums[j] > nums[i] {
-                return nums[i] + nums[j] + nums[k]
+                return nums[i] + nums[j] + nums[k];
             }
         }
-        
+
         return 0;
     }
 }
