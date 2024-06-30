@@ -1,3 +1,4 @@
+pub mod count_square_sum_triplets;
 pub mod count_symmetric_integers;
 pub mod find_common_characters;
 pub mod find_the_k_beauty_of_a_number;
