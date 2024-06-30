@@ -1,7 +1,8 @@
-use std::cmp::min;
+use crate::Solution;
+pub use std::cmp::min;
 
 impl Solution {
-    const ABC: &str = "abcdefghijklmnopqrstuvwxyz";
+    const ABC: &'static str = "abcdefghijklmnopqrstuvwxyz";
 
     pub fn common_chars(words: Vec<String>) -> Vec<String> {
         let mut result: Vec<String> = vec![];
